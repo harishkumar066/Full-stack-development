@@ -3,3 +3,5 @@ html java os
 format
 javascript
 c
+jquery
+application
