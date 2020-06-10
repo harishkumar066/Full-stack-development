@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    $("#ul").fadeIn("slow");
+                });
+            });
+        </script>
+        <style>
+         ul{
+             list-style-type: none;
+             border: 1px solid:solid gray;
+             background-color: darkslateblue;
+             color: white;
+             display: none;
+             width:120px;
+
+         }
+         li a{
+             margin:10px;
+             
+         }
+         li{
+             margin:10px;
+         }
+         #btn{
+             padding:10px;
+             background-color: gray;
+             border: none;
+             border-radius: 5px;
+             color:white;
+             margin-right: 580px;
+             margin-top: 20px;
+         }
+         #btn:hover{
+             padding:12px;
+         }
+        </style>
+    </head>
+    <body>
+    <ul id="ul">
+        <li><a>Home</a></li>
+        <li><a>Services</a></li>
+        <li><a>Product</a></li>
+        <li><a>Contact</a></li>
+        <li><a>About Us</a></li>
+    </ul>
+    <button type="button" id="btn">Execute FadeIn method</button>
+    </body>
+</html>
