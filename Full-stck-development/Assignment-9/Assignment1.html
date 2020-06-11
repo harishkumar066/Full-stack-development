@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#Click").click(function(){
+            $("div").animate({right:'350px',height:'450px',width:'450px'});
+        });
+    });
+</script>
+<style type="text/css">
+div{
+    background-color:chocolate;
+    color:bisque;
+    height:250px;
+    width:250px;
+    text-align: center;
+    position:absolute;
+}
+    </style>
+
+</head>
+<body>
+    <button type="button" id="Click">Animate</button>
+    <div>
+        <h2>Hello</h2>
+    </div>
+</body>
+</html>

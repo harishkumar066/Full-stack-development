@@ -1,0 +1,25 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#button").click(function(){
+            $(".h").toggle(2000);
+        });
+    });
+</script>
+<style>
+  .h{
+      height:400px;
+      width: 400px;
+      background-color:black;
+      position: absolute;
+  }
+</style>
+</head>
+<body>
+    <button type="button"id="button">Animate</button>
+    <div class="h">
+
+    </div>
+</body>
